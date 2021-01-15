@@ -399,17 +399,30 @@
                 </svg>
             </button>
                 <form class="modal-form">
-                    <label fclass="form-field">
+                    <label class="form-field">
                         Имя
                         <input type="text" name="user-name" class="form-input">
+                        <svg class="modal-form-icon">
+                            <use href="./images/sprite.svg#modal-icon-user"></use>
+                        </svg>
+                    </label>
+                    <label class="form-field">
+                        Имя
+                        <input type="text" name="user-name" class="form-input">
+                        <svg class="modal-form-icon" >  
+                            <use href="./images/sprite.svg#modal-icon-tel"></use>
+                        </svg>
                     </label>
                     <label class="form-field">
                         Телефон
                         <input type="tel" name="user-tel" class="form-input">
+                        <svg class="modal-form-icon"> 
+                            <use href="./images/sprite.svg#modal-icon-email"></use>
+                        </svg>
                     </label>
                     <label class="form-field">
                         Комментарий
-                        <textarea name="user-message" id="" cols="30" rows="10"></textarea>
+                        <textarea name="user-message" id="user-message" cols="30" rows="10"></textarea>
                     </label>
                         <input type="checkbox" class="form-policy" value="form-aacept-policy">
                         <label class="form-policy-text">Соглашаюсь с рассылкой и принимаю Условия договора <a href="">Условия договора</a></label>
@@ -421,5 +434,5 @@
 
     <script src="./js/modal.js" ></script>
 </body>
-
+ 
 </html>
