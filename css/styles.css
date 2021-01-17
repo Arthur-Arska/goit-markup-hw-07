@@ -632,6 +632,66 @@ a {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.footer-subscription-text {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  color: #ffffff;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-subscription {
+  margin-left: 93px;
+  padding-top: 72px;
+}
+
+.email-subscription {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+}
+
+.footer-form-button {
+  display: flex;
+  justify-content: center;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  border-style: hidden;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+
+.subscription-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
 /*========== BACKDROP ==========*/
 
 .backdrop {
@@ -673,7 +733,7 @@ a {
   margin-top: 4px;
 }
 
-.form-input {
+.modal-form-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -682,15 +742,15 @@ a {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-field {
+.modal-form-field {
   margin-top: 10px;
 }
 
-.form-input:focus {
+.modal-form-input:focus {
   outline: none;
   border-color: #2196f3;
 }
-.form-input:focus + .modal-form-icon {
+.modal-form-input:focus + .modal-form-icon {
   fill: #2196f3;
 }
 
@@ -713,12 +773,38 @@ a {
   margin-top: 4px;
   padding: 12px 16px;
   resize: none;
-  transition: background-cilir 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-message:focus {
   border-color: #2196f3;
   outline: none;
+}
+
+.modal-form-policy-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+
+  color: #757575;
+}
+
+.modal-form-policy:checked + .modal-form-policy-text::before {
+  background-color: #2196f3;
+}
+
+.modal-form-policy-text::before {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid black;
+  border-radius: 2px;
+  content: "";
+  margin-top: 20px;
+  margin-right: 8px;
 }
 
 textarea::placeholder {
@@ -729,6 +815,31 @@ textarea::placeholder {
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
+}
+
+.contract-terms {
+  text-decoration: underline;
+}
+
+.modal-form-button {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #2196f3;
+  border-style: hidden;
+  border-radius: 4px;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 55px 10px 56px;
+
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
 }
 
 .close-button {
