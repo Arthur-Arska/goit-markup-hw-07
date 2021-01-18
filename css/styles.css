@@ -793,7 +793,16 @@ a {
 }
 
 .modal-form-policy:checked + .modal-form-policy-text::before {
+  background-image: url("../images/check-mark.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #2196f3;
+  border: hidden;
+}
+
+.modal-form-policy:focus + .modal-form-policy-text {
+  border-color: #b3d7ff;
+  outline: none;
 }
 
 .modal-form-policy-text::before {
