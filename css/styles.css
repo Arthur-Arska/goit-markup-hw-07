@@ -800,11 +800,6 @@ a {
   border: hidden;
 }
 
-.modal-form-policy:focus + .modal-form-policy-text {
-  border-color: #b3d7ff;
-  outline: none;
-}
-
 .modal-form-policy-text::before {
   display: inline-block;
   width: 16px;
