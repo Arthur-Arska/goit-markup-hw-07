@@ -40,10 +40,10 @@
 .client-list-link:hover,
 .client-list-link:focus {
   background-color: #ffffff;
-  border-color: #2196f3;
+  border-color: getColor("emphasis");
 }
 
 .client-list-link:hover .client-list-icon,
 .client-list-link:focus .client-list-icon {
-  fill: #2196f3;
+  fill: getColor("emphasis");
 }

@@ -398,11 +398,11 @@ summary {
 }
 
 .logo-studio-black {
-  color: black;
+  color: #212121;
 }
 
 .logo-studio-white {
-  color: white;
+  color: #ffffff;
 }
 
 .nav-menu-list:not(:last-child) {
