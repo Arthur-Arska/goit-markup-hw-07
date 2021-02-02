@@ -1,5 +1,5 @@
 .studio-team {
-  background-color: #f5f4fa;
+  background-color: getColor("background");
 }
 
 .team-wrapper {
@@ -14,7 +14,7 @@
   font-size: 36px;
   line-height: 1.167;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: getColor("primaryBlack");
   margin-bottom: 50px;
 }
 
@@ -30,7 +30,7 @@
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: getColor("primaryBlack");
   margin-bottom: 10px;
 }
 
@@ -41,7 +41,7 @@
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: getColor("secondary");
   margin-bottom: 16px;
 }
 
@@ -71,11 +71,11 @@
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  background-color: #ffffff;
+  background-color: getColor("primaryWhite");
 }
 
 .social-list-icon {
-  fill: #afb1b8;
+  fill: getColor("link");
   width: 20px;
   height: 20px;
 }
@@ -92,5 +92,5 @@
 
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
-  fill: #ffffff;
+  fill: getColor("primaryWhite");
 }

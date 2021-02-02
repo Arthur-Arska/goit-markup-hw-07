@@ -8,6 +8,9 @@ $colors: (
   "emphasis": #2196f3,
   "link": #afb1b8,
   "footerLink": rgba(255, 255, 255, 0.6),
+  "background": #f5f4fa,
+  "backgroundFooter": #2f303a,
+  "backgroundLink": rgba(255, 255, 255, 0.1),
 );
 
 @function getColor($key) {

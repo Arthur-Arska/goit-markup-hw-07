@@ -7,7 +7,7 @@
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 
-  color: #212121;
+  color: getColor("primaryBlack");
 }
 
 .gallery-list-item {
@@ -32,7 +32,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: getColor("primaryWhite");
 }
 
 .gallery-list {

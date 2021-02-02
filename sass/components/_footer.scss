@@ -1,5 +1,5 @@
 .footer {
-  background-color: #2f303a;
+  background-color: getColor("backgroundFooter");
   display: flex;
 }
 
@@ -21,7 +21,7 @@
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: getColor("primaryWhite");
   margin-top: 20px;
 }
 
@@ -50,7 +50,7 @@
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: getColor("footerLink");
 }
 
 .mail-item {
@@ -74,7 +74,7 @@
 .footer-social-icon {
   width: 20px;
   height: 20px;
-  fill: #ffffff;
+  fill: getColor("primaryWhite");
 }
 
 .footer-social-link {
@@ -84,11 +84,11 @@
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: getColor("backgroundLink");
 }
 
 .footer-list-icon {
-  fill: #ffffff;
+  fill: getColor("primaryWhite");
   width: 20px;
   height: 20px;
 }
@@ -110,7 +110,7 @@
 
 .social-list-link:hover .footer-list-icon,
 .social-list-link:focus .footer-list-icon {
-  fill: #ffffff;
+  fill: getColor("primaryWhite");
 }
 
 .social-call {
@@ -121,13 +121,13 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: getColor("primaryWhite");
   margin-bottom: 20px;
 }
 
 .footer-social-item {
   .social-list-link {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: getColor("backgroundLink");
   }
 }
 
@@ -140,7 +140,7 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 
-  color: #ffffff;
+  color: getColor("primaryWhite");
 }
 
 .footer-form {
@@ -157,7 +157,7 @@
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background: #2f303a;
+  background: getColor("backgroundFooter");
   width: 358px;
   height: 50px;
   margin-right: 12px;
@@ -182,7 +182,7 @@
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: getColor("primaryWhite");
 }
 
 .subscription-icon {

@@ -28,7 +28,7 @@
   line-height: 1.364;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: getColor("primaryWhite");
   margin-bottom: 30px;
 }
 
@@ -43,7 +43,7 @@
   font-size: 16px;
   letter-spacing: 0.06em;
   background: getColor("emphasis");
-  color: #ffffff;
+  color: getColor("primaryWhite");
   min-width: 200px;
   height: 50px;
   padding: 10px 32px;

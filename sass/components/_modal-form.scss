@@ -20,7 +20,7 @@
   transform: translate(-50%, -50%) scale(1);
   width: 528px;
   transition: transform 300ms linear;
-  background-color: #ffffff;
+  background-color: getColor("primaryWhite");
   border-radius: 4px;
   padding: 40px;
 }
@@ -95,7 +95,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  color: #757575;
+  color: getColor("secondary");
 }
 
 .modal-form-policy:checked + .modal-form-policy-text::before {
@@ -150,13 +150,13 @@ textarea::placeholder {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: getColor("primaryWhite");
 }
 
 .close-button {
   width: 30px;
   height: 30px;
-  background-color: #ffffff;
+  background-color: getColor("primaryWhite");
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
