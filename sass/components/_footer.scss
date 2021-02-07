@@ -16,7 +16,7 @@
 }
 
 .footer-address {
-  font-family: "Roboto", sans-serif;
+  font-family: $mainFontType;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -34,7 +34,7 @@
   }
 
   .logo {
-    font-family: "Raleway", sans-serif;
+    font-family: $logoFontType;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
@@ -45,7 +45,7 @@
 
 .footer-mail,
 .footer-tel {
-  font-family: "Roboto", sans-serif;
+  font-family: $mainFontType;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -78,9 +78,7 @@
 }
 
 .footer-social-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %contantAlign;
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -114,7 +112,7 @@
 }
 
 .social-call {
-  font-family: Roboto;
+  font-family: $mainFontType;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -132,7 +130,7 @@
 }
 
 .footer-subscription-text {
-  font-family: Roboto;
+  font-family: $mainFontType;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -173,7 +171,7 @@
   height: 50px;
   border-style: hidden;
 
-  font-family: Roboto;
+  font-family: $mainFontType;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;

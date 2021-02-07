@@ -345,6 +345,18 @@ summary {
   overflow: hidden;
 }
 
+.gallery-image-label, .social-list-link, .client-list-link, .footer-social-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -590,7 +602,7 @@ summary {
 }
 
 .modal-form-policy-text {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -621,7 +633,7 @@ summary {
 }
 
 textarea::-webkit-input-placeholder {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.143;
@@ -630,7 +642,7 @@ textarea::-webkit-input-placeholder {
 }
 
 textarea:-ms-input-placeholder {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.143;
@@ -639,7 +651,7 @@ textarea:-ms-input-placeholder {
 }
 
 textarea::-ms-input-placeholder {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.143;
@@ -648,7 +660,7 @@ textarea::-ms-input-placeholder {
 }
 
 textarea::placeholder {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.143;
@@ -671,7 +683,7 @@ textarea::placeholder {
   display: block;
   margin: 0 auto;
   padding: 10px 55px 10px 56px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -783,7 +795,7 @@ textarea::placeholder {
 }
 
 .feauture-description {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
@@ -840,21 +852,12 @@ textarea::placeholder {
 }
 
 .gallery-image-label {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -948,15 +951,6 @@ textarea::placeholder {
 }
 
 .social-list-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -997,15 +991,6 @@ textarea::placeholder {
 }
 
 .client-list-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border-radius: 4px;
   width: 170px;
   height: 90px;
@@ -1132,15 +1117,6 @@ textarea::placeholder {
 }
 
 .footer-social-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -1174,7 +1150,7 @@ textarea::placeholder {
 }
 
 .social-call {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -1189,7 +1165,7 @@ textarea::placeholder {
 }
 
 .footer-subscription-text {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -1237,7 +1213,7 @@ textarea::placeholder {
   width: 200px;
   height: 50px;
   border-style: hidden;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;

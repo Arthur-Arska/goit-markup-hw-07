@@ -17,7 +17,7 @@
 }
 
 .hero-title {
-  font-family: "Roboto", sans-serif;
+  font-family: $mainFontType;
   width: 696px;
   height: 120px;
   left: 452px;
@@ -38,7 +38,7 @@
 }
 
 .main-button {
-  font-family: "Roboto", sans-serif;
+  font-family: $mainFontType;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.06em;

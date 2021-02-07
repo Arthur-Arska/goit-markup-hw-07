@@ -1,5 +1,5 @@
 .client-title {
-  font-family: "Roboto", sans-serif;
+  font-family: $mainFontType;
 
   text-align: center;
   font-weight: 700;
@@ -11,9 +11,7 @@
 }
 
 .client-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %contantAlign;
   border-radius: 4px;
   width: 170px;
   height: 90px;
