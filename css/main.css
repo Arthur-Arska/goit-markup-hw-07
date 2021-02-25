@@ -1213,6 +1213,7 @@ textarea::placeholder {
   width: 200px;
   height: 50px;
   border-style: hidden;
+  cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
