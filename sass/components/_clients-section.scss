@@ -17,6 +17,12 @@
   height: 90px;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
+
+  &:hover,
+  &:focus {
+    background-color: getColor("primaryWhite");
+    border-color: getColor("emphasis");
+  }
 }
 
 .client-list {
@@ -35,13 +41,9 @@
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-list-link:hover,
-.client-list-link:focus {
-  background-color: getColor("primaryWhite");
-  border-color: getColor("emphasis");
-}
-
-.client-list-link:hover .client-list-icon,
-.client-list-link:focus .client-list-icon {
-  fill: getColor("emphasis");
+.client-list-icon {
+  .client-list-link:hover &,
+  .client-list-link:focus & {
+    fill: getColor("emphasis");
+  }
 }

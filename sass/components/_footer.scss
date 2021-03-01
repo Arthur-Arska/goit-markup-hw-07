@@ -83,12 +83,22 @@
   width: 44px;
   height: 44px;
   background-color: getColor("backgroundLink");
+
+  &:hover,
+  &:focus {
+    background-color: getColor("emphasis");
+  }
 }
 
 .footer-list-icon {
   fill: getColor("primaryWhite");
   width: 20px;
   height: 20px;
+
+  .social-list-link:hover &,
+  .social-list-link:focus & {
+    fill: getColor("primaryWhite");
+  }
 }
 
 .footer-social-link,
@@ -100,16 +110,6 @@
   display: flex;
   justify-content: ;
 }*/
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-  background-color: getColor("emphasis");
-}
-
-.social-list-link:hover .footer-list-icon,
-.social-list-link:focus .footer-list-icon {
-  fill: getColor("primaryWhite");
-}
 
 .social-call {
   font-family: $mainFontType;
